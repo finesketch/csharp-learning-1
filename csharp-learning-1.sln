@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-learning-1", "csharp-learning-1.csproj", "{EF07BA05-14C6-4439-9601-D3F12C660203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTest-Project", "xUnitTest-Project\xUnitTest-Project.csproj", "{D48B6598-963A-4C69-BAB5-CC6DAA142C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF07BA05-14C6-4439-9601-D3F12C660203}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{EF07BA05-14C6-4439-9601-D3F12C660203}.Debug|anycpu.Build.0 = Debug|anycpu
-		{EF07BA05-14C6-4439-9601-D3F12C660203}.Release|anycpu.ActiveCfg = Release|anycpu
-		{EF07BA05-14C6-4439-9601-D3F12C660203}.Release|anycpu.Build.0 = Release|anycpu
+		{D48B6598-963A-4C69-BAB5-CC6DAA142C5F}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{D48B6598-963A-4C69-BAB5-CC6DAA142C5F}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{D48B6598-963A-4C69-BAB5-CC6DAA142C5F}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{D48B6598-963A-4C69-BAB5-CC6DAA142C5F}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
