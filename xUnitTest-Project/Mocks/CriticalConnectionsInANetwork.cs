@@ -43,7 +43,8 @@ namespace xUnitTest_Project.Mocks
         static List<int>[] adj;
         int time = 0;
 
-        public static IList<PairInt> CriticalConnections(int V, IList<PairInt> connections)
+        //*********public static IList<PairInt> CriticalConnections(int V, IList<PairInt> connections)
+        public static void CriticalConnections(int V, IList<PairInt> connections)
         {
             // Mark all the vertices as not visited  
             bool[] visited = new bool[V];
@@ -82,7 +83,7 @@ namespace xUnitTest_Project.Mocks
             visited[u] = true;
 
             // Initialize discovery time and low value  
-            disc[u] = low[u] = time++;
+            // ******* disc[u] = low[u] = time++;
 
             // Go through all vertices aadjacent to this  
             foreach (int i in adj[u])
